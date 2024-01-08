@@ -1,0 +1,15 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": [
+    {
+      "target": "reclutamiento-practica",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-east1"
+      }
+    }
+  ]
+}

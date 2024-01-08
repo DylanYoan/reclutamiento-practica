@@ -93,8 +93,28 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "reclutamiento-practica:build:production",
+              "serveTarget": "reclutamiento-practica:serve:production"
+            },
+            "development": {
+              "buildTarget": "reclutamiento-practica:build:development",
+              "serveTarget": "reclutamiento-practica:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

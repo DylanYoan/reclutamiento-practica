@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "reclutamiento-practica-1f15e"
+  },
+  "targets": {
+    "reclutamiento-practica-1f15e": {
+      "hosting": {
+        "reclutamiento-practica": [
+          "reclutamiento-practica-1f15e"
+        ]
+      }
+    }
+  }
+}
